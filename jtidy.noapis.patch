@@ -1,0 +1,11 @@
+--- build.xml~	Wed Aug  1 18:15:04 2001
++++ build.xml	Fri Aug 30 23:09:12 2002
+@@ -20,7 +20,7 @@
+   <property name="name"           value="Tidy"/>
+   <property name="version"        value="4aug2000"/>
+   
+-  <property name="packages"       value="org.w3c.dom.*, org.w3c.tidy.*"/>
++  <property name="packages"       value="org.w3c.tidy.*"/>
+   
+   <property name="src.dir"        value="src"/>
+   <property name="build.dir"      value="build"/>

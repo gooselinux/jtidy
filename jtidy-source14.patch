@@ -1,0 +1,14 @@
+diff -up ./build.xml.sav ./build.xml
+--- ./build.xml.sav	2009-03-20 15:34:22.000000000 -0400
++++ ./build.xml	2009-03-20 15:34:41.000000000 -0400
+@@ -60,7 +60,9 @@
+ 	 includes="**/*.java"
+ 	 deprecation="on"
+ 	 optimize="${optimize}"
+-	 debug="${debug}"/>
++	 debug="${debug}"
++	 source="1.4"
++	 />
+  </target>
+ 
+  <!-- ================================================================= -->
